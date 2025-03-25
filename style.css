@@ -4,6 +4,7 @@
 	color: white;
 
 	box-sizing: border-box;
+	margin: 0px;
 }
 
 a {
@@ -182,88 +183,14 @@ a {
 
 body {
 	line-height: 1.5;
-	margin: 0px;
 
 	overflow-x: hidden;
 	overflow-y: scroll;
+	min-width: 100vw;
 }
 
-header {
-	background-color: rgb(37, 37, 45);
-	width: 100%;
-	height: auto;
-	margin: 0px;
-	padding: 10px 32px;
-
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-
-	border-bottom: 1px solid rgb(75, 85, 99);
-	position: fixed;
-	z-index: 1000;
-}
-
-.header-container {
-	width: 60%;
-	height: 4rem;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-}
-.header-container * {
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.header-profile {
-	width: auto;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-
-	align-items: center;
-}
-
-.header-profile img {
-	width: auto;
-	height: 90%;
-	border: none;
-	border-radius: 100%;
-	margin-right: 15px;
-
-	object-fit: cover;
-	cursor: pointer;
-}
-
-.header-menu {
-	width: 40%;
-	height: 100%;
-
-	display: flex;
-	flex-direction: row;
-}
-
-.header-menu-container {
-	width: 90%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-
-	margin: 0px;
-}
-
-.header-menu-container li {
-	flex: 1;
-	height: 100%;
-	width: 12%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+.body-container {
+	width: 100vw;
 }
 
 .coming-soon {
@@ -292,7 +219,8 @@ header {
 }
 
 .home {
-	width: 100%;
+	display: block !important;
+	width: 100vw;
 	height: 100vh;
 	/* background-color: rgb(48, 48, 55); */
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),

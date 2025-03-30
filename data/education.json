@@ -1,0 +1,161 @@
+{
+	"education": [
+		{
+			"degree": "Master of Science in Computer Science",
+			"institution": "Thammasat University",
+			"location": "Thailand",
+			"status": "Studying",
+			"start-date": "January 2025",
+			"end-date": "February 2027",
+			"gpa": null
+		},
+		{
+			"degree": "Bachelor's Degree in Engineering (Communication & Electronic Engineering",
+			"institution": "Thammasat University",
+			"location": "Thailand",
+			"status": "Studying",
+			"start-date": "August 2017",
+			"end-date": "July 2021",
+			"gpa": 3.06
+		},
+		{
+			"degree": "High School in Science and mathematics program",
+			"institution": "Nongyasai witthaya School",
+			"location": "Thailand",
+			"status": "Graduated",
+			"start-date": "",
+			"end-date": "April 2017",
+			"gpa": 3.89
+		}
+	],
+	"skills": {
+		"technical": {
+			"programming": [
+				"C",
+				"C++",
+				"C#",
+				"Python",
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"React",
+				"Node.js"
+			],
+			"databases": ["MySQL"],
+			"software": ["Git", "Microsoft 365"],
+			"hardware": ["Microchip", "STM32", "Arduino", "Raspberry Pi", "NVIDIA Jetson"]
+		},
+		"soft": {
+			"cliftonstrengths": [
+				"Achiever",
+				"Learner",
+				"Individualization",
+				"Ideation",
+				"Responsibility"
+			],
+			"outstanding": [
+				"Problem solving",
+				"Attention to Detail",
+				"Teaching",
+				"Teamwork",
+				"Ideation",
+				"Technological"
+			]
+		}
+	},
+	"experience": [
+		{
+			"company": "Loxley Public Company Limited",
+			"department": "BU: Transportation System Integration",
+			"position": "Systems Engineer",
+			"location": "Bangkok, Thailand",
+			"start-date": "Nov  2021",
+			"end-date": "Present",
+			"description": [
+				"Design and Development of Systems and Products for Expressway and Motorway Projects.",
+				"Products Design and Develop (Hardware and Embedded).",
+				"Firmware and Software Develop (C/C++, C#.Net).",
+				"Implement, Commissioning Test Procedure (CTP)."
+			]
+		},
+		{
+			"company": "Venus Supply Company Limited",
+			"department": "Developer",
+			"position": "Software Engineer",
+			"location": "Bangkok, Thailand",
+			"start": "2021",
+			"end": "2023",
+			"description": [
+				"Develop Artificial Intelligence (AI) on the NVIDIA Jetson Nano platform. (Python 3, Ubuntu).",
+				"Collaborating with a team to develop and test software on the NVIDIA Jetson Nano."
+			]
+		}
+	],
+	"projects": [
+		{
+			"name": "Toll Collection System (Burapha Withi Expressway)",
+			"description": [
+				"Design/specify and integrate function follow the application requirement.",
+				"Installation, commissioning and customer training according to the plan.",
+				"Resolve project concerns/problems together with the engineering team."
+			],
+			"project-value": "399 million THB",
+			"technologies": null,
+			"start-year": "Nov 2021",
+			"end-year": "Mar 2023"
+		},
+		{
+			"name": "Automatic Vehicle Detection Controller (Motorway M6&M81)",
+			"description": [
+				"Design/specify function follow the application requirement.",
+				"Design Products (Integrated hardware and controller as part of the product).",
+				"Design TCP/IP socket protocol for interface with software.",
+				"Develop firmware (C/C++) for vehicle detection and classification.",
+				"Develop windows application (C#.Net) for simulation and system integration test."
+			],
+			"project-value": "",
+			"technologies": ["C", "C++", "C#.Net"],
+			"start-year": "MAR 2023",
+			"end-year": "Dec 2023"
+		},
+		{
+			"name": "Traffic Detection System (Motorway M6&M81)",
+			"description": [
+				"Attend meetings with stakeholders both inside and outside the company.",
+				"Design/specify and integrate function follow the application requirement.",
+				"Managing and coordinating the team and contractors to carry out all proof of concept , design installation and report progress to the project manager.",
+				"Installation, commissioning and customer training according to the plan."
+			],
+			"project-value": "",
+			"technologies": null,
+			"start-year": "Sep 2023",
+			"end-year": "May 2024"
+		},
+		{
+			"name": "Emergency Telephone System (Motorway M6&M81)",
+			"description": [
+				"Attend meetings with stakeholders both inside and outside the company.",
+				"Design/specify and integrate function follow the application requirement.",
+				"Managing and coordinating the team and contractors to carry out all proof of concept , design installation and report progress to the project manager.",
+				"Installation, commissioning and customer training according to the plan."
+			],
+			"project-value": "",
+			"technologies": null,
+			"start-year": "Sep 2023",
+			"end-year": "May 2024"
+		},
+		{
+			"name": "Remote Power Controller (Motorway M6&M81)",
+			"description": [
+				"Design/specify function follow the application requirement.",
+				"Design TCP/IP socket protocol and web API for interface with software.",
+				"Develop firmware (C/C++).",
+				"Develop web management controller (HTML, CSS, JS)."
+			],
+			"project-value": "",
+			"technologies": ["C", "C++", "HTML", "CSS", "JavaScript"],
+			"start-year": "Dec 2023",
+			"end-year": "Feb 2024"
+		}
+	]
+}

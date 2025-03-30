@@ -1,0 +1,146 @@
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	width: 100vw !important;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: row;
+	column-gap: 20px;
+}
+
+.footer-container > * {
+	width: 100%;
+}
+
+.footer-item {
+	display: flex;
+	flex-direction: row;
+	column-gap: 10px;
+	padding: 0px;
+}
+
+.footer-item li {
+	margin: 15px 10px;
+}
+
+.footer-item > li {
+	flex: 1;
+}
+
+.footer-item ul {
+	padding: 0px 5px;
+}
+
+.socail {
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+	justify-content: center;
+
+	margin-top: -5px;
+}
+.socail li {
+	flex: 1;
+	height: 100%;
+	width: 12%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.socail .coming-soon {
+	top: 120%;
+}
+
+.footer-container > div {
+	display: flex;
+	width: 100%;
+}
+
+.footer-container span {
+	width: 100%;
+
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	padding: 10px;
+	border-top: 1px solid white;
+}
+
+@media all and (max-width: 550px) {
+	.footer-item li.font-20px {
+		font-size: 16px;
+	}
+
+	.footer-item li.font-18px {
+		font-size: 14px;
+	}
+
+	.footer-item li.font-16px {
+		font-size: 12px;
+	}
+
+	.contact-container {
+		flex-direction: column;
+		justify-content: start;
+		align-items: start;
+	}
+
+	.socail {
+		justify-content: start;
+	}
+}
+
+@media all and (min-width: 550px) and (max-width: 751px) {
+	.footer-item li.font-20px {
+		font-size: 18px;
+	}
+
+	.footer-item li.font-18px {
+		font-size: 16px;
+	}
+
+	.footer-item li.font-16px {
+		font-size: 14px;
+	}
+}
+
+@media all and (max-width: 1150px) {
+	.footer-container {
+		width: 90%;
+		padding: 10px 20px;
+	}
+
+	.footer-item {
+		flex-direction: column;
+	}
+
+	.contact-container {
+		flex: 1;
+		justify-content: space-between;
+	}
+}
+
+@media all and (min-width: 1151px) and (max-width: 1900px) {
+	.footer-container {
+		width: 85%;
+	}
+}
+
+@media all and (min-width: 1901px) {
+	.footer-container {
+		width: 65%;
+	}
+}

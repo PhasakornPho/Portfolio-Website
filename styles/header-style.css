@@ -12,7 +12,7 @@ header {
 
 	border-bottom: 1px solid rgb(75, 85, 99);
 	position: fixed;
-	z-index: 1000;
+	z-index: 10;
 }
 
 .header-container {
@@ -22,6 +22,13 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.header-hero {
+	display: flex;
+	flex-direction: column;
+	min-width: 400px;
+	height: 100%;
 }
 
 .header-container * {
@@ -46,6 +53,7 @@ header {
 
 	object-fit: cover;
 	cursor: pointer;
+	z-index: 10;
 }
 
 .header-menu {
@@ -95,33 +103,23 @@ label[for="bntListMenu"] {
 	display: none;
 }
 
-#bntListMenu:checked ~ .header-menu-container {
-	display: flex;
-	background-color: rgb(55, 65, 81);
-	width: 100px;
-	height: fit-content;
-	padding: 10px;
-	position: absolute;
-	border-radius: 8px;
-	top: 100%;
-
-	animation: shows 0.5s ease-in-out forwards;
-
-	li {
-		display: flex;
-		justify-content: start;
-		width: 100%;
-		padding: 12px 8px;
-	}
+.header-menu-container a {
+	width: 100%;
+	padding: 10px 5px;
+	text-align: center;
 }
 
 @media all and (max-width: 499px) {
 	.name {
 		display: none !important;
 	}
+
+	.header-menu-container a {
+		font-size: 12px !important;
+	}
 }
 
-@media all and (max-width: 999px) {
+@media all and (max-width: 1150px) {
 	.header-profile {
 		min-width: 0px;
 		width: fit-content;
@@ -151,13 +149,44 @@ label[for="bntListMenu"] {
 	.header-menu-container {
 		flex-direction: column;
 		flex: 1;
-		display: none;
+
 		align-items: center;
 		justify-content: center;
+		display: none;
+	}
+
+	#bntListMenu:checked ~ .header-menu-container {
+		display: flex;
+		background-color: rgb(55, 65, 81);
+		width: 100px;
+		height: fit-content;
+		padding: 10px;
+		position: absolute;
+		border-radius: 8px;
+		top: 100%;
+
+		animation: shows 0.3s ease-in-out forwards;
+
+		li {
+			display: flex;
+			justify-content: start;
+			width: 100%;
+			padding: 6px 3px;
+		}
+	}
+
+	.coming-soon.blog {
+		top: 76%;
+		left: -120%;
+		background-color: rgb(35, 40, 50);
+	}
+
+	#bntSW:checked + div .coming-soon.blog {
+		background-color: rgb(255, 255, 255);
 	}
 }
 
-@media all and (min-width: 1000px) and (max-width: 1500px) {
+@media all and (min-width: 1151px) and (max-width: 1900px) {
 	.header-container {
 		width: 95%;
 	}
@@ -171,7 +200,7 @@ label[for="bntListMenu"] {
 	}
 }
 
-@media all and (min-width: 1501px) {
+@media all and (min-width: 1901px) {
 	.header-container {
 		width: 70%;
 	}

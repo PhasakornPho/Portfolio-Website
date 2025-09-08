@@ -322,14 +322,16 @@ body {
 	background-color: rgb(200, 200, 200);
 }
 
-#bntSW:checked + div #bntListMenu:checked ~ .header-menu-container {
-	background-color: rgb(200, 200, 200);
+@media all and (max-width: 1151px) {
+	#bntSW:checked + div #bntListMenu:checked ~ .header-menu-container {
+		background-color: rgb(200, 200, 200);
+	}
 }
 
 #bntSW:checked + div .home {
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(to right, rgba(150, 150, 150, 0.8), rgba(150, 150, 150, 0.8)),
+	background: linear-gradient(to right, rgba(150, 150, 150, 1), rgba(150, 150, 150, 1)),
 		url(./image/Home-background-1.svg);
 }
 
